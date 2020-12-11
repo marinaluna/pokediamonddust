@@ -70,6 +70,7 @@ static const u16 gUnknown_0857F444[16] = INCBIN_U16("graphics/interface/map_popu
 
 static const u8 gRegionMapSectionId_To_PopUpThemeIdMapping[] =
 {
+    [MAPSEC_TWINLEAF_TOWN] = MAPPOPUP_THEME_WOOD,
     [MAPSEC_LITTLEROOT_TOWN] = MAPPOPUP_THEME_WOOD,
     [MAPSEC_OLDALE_TOWN] = MAPPOPUP_THEME_WOOD,
     [MAPSEC_DEWFORD_TOWN] = MAPPOPUP_THEME_WOOD,

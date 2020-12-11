@@ -1062,3 +1062,19 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/text/birch_speech.inc"
 
 	.include "data/maps/TwinleafTown/scripts.inc"
+
+	.include "data/maps/TwinleafTown_PlayersHouse_2F/scripts.inc"
+
+	.include "data/maps/TwinleafTown_PlayersHouse_1F/scripts.inc"
+
+	.include "data/maps/TwinleafTown_RivalsHouse_2F/scripts.inc"
+
+	.include "data/maps/TwinleafTown_RivalsHouse_1F/scripts.inc"
+
+	.include "data/maps/gTwinleafTown_TopRight_House/scripts.inc"
+
+	.include "data/maps/gTwinleafTown_BotLeft_House/scripts.inc"
+
+	.include "data/maps/TwinleafTown_BotLeft_House/scripts.inc"
+
+	.include "data/maps/TwinleafTown_TopRight_House/scripts.inc"
