@@ -714,9 +714,6 @@
 #define METATILE_Shop_Laptop2_Flash   0x260
 #define METATILE_Shop_Laptop2_Normal  0x2A5
 
-// gTileset_SinnohOutdoors
-#define METATILE_SinnohOutdoors_Twinleaf_Door  0x02A
-
 // gTileset_Slateport
 #define METATILE_Slateport_Door             0x2DC
 #define METATILE_Slateport_Door_BattleTent  0x393
@@ -777,6 +774,10 @@
 #define METATILE_TrickHousePuzzle_RedDoorV_Open1              0x242
 #define METATILE_TrickHousePuzzle_RedDoorV_Retracted          0x24A
 #define METATILE_TrickHousePuzzle_Stairs_Down                 0x20B
+
+// gTileset_Twinleaf
+#define METATILE_Twinleaf_Door_Brown  0x22A
+#define METATILE_Twinleaf_Door_Green  0x20B
 
 // gTileset_Underwater
 #define METATILE_Underwater_FloorShadow  0x228

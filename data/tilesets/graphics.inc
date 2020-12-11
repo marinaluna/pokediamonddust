@@ -1749,3 +1749,23 @@ gTilesetPalettes_SinnohOutdoors::
 	.align 2
 gTilesetTiles_SinnohOutdoors::
 	.incbin "data/tilesets/primary/sinnohoutdoors/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_Twinleaf::
+	.incbin "data/tilesets/secondary/twinleaf/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/twinleaf/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/twinleaf/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/twinleaf/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/twinleaf/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/twinleaf/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/twinleaf/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/twinleaf/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/twinleaf/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/twinleaf/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/twinleaf/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/twinleaf/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/twinleaf/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_Twinleaf::
+	.incbin "data/tilesets/secondary/twinleaf/tiles.4bpp.lz"

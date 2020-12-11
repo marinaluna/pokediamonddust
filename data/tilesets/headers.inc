@@ -841,3 +841,14 @@ gTileset_SinnohOutdoors::
 	.4byte gMetatiles_SinnohOutdoors
 	.4byte gMetatileAttributes_SinnohOutdoors
 	.4byte NULL
+
+	.align 2
+gTileset_Twinleaf::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_Twinleaf
+	.4byte gTilesetPalettes_Twinleaf
+	.4byte gMetatiles_Twinleaf
+	.4byte gMetatileAttributes_Twinleaf
+	.4byte NULL

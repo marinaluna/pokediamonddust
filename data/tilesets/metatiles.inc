@@ -565,3 +565,10 @@ gMetatiles_SinnohOutdoors::
 	.align 1
 gMetatileAttributes_SinnohOutdoors::
 	.incbin "data/tilesets/primary/sinnohoutdoors/metatile_attributes.bin"
+	.align 1
+gMetatiles_Twinleaf::
+	.incbin "data/tilesets/secondary/twinleaf/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_Twinleaf::
+	.incbin "data/tilesets/secondary/twinleaf/metatile_attributes.bin"
