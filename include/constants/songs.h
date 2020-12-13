@@ -543,6 +543,7 @@
 
 // DiamondDust Music
 #define MUS_TWINLEAF                610
+#define MUS_ROUTE201                611
 
 #define MUS_ROUTE118                0x7FFF  // Map is split into 2 music sections. controlled by GetCurrLocationDefaultMusic().
 

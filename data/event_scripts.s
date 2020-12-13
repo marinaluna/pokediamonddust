@@ -1071,10 +1071,10 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 
 	.include "data/maps/TwinleafTown_RivalsHouse_1F/scripts.inc"
 
-	.include "data/maps/gTwinleafTown_TopRight_House/scripts.inc"
-
-	.include "data/maps/gTwinleafTown_BotLeft_House/scripts.inc"
-
 	.include "data/maps/TwinleafTown_BotLeft_House/scripts.inc"
 
 	.include "data/maps/TwinleafTown_TopRight_House/scripts.inc"
+
+	.include "data/maps/Route201/scripts.inc"
+
+	.include "data/maps/VerityLakefront/scripts.inc"

@@ -776,8 +776,9 @@
 #define METATILE_TrickHousePuzzle_Stairs_Down                 0x20B
 
 // gTileset_Twinleaf
-#define METATILE_Twinleaf_Door_Brown  0x22A
-#define METATILE_Twinleaf_Door_Green  0x20B
+#define METATILE_Twinleaf_Door_Brown_BigHouse     0x22A
+#define METATILE_Twinleaf_Door_Brown_LittleHouse  0x251
+#define METATILE_Twinleaf_Door_Green_BigHouse     0x20B
 
 // gTileset_Underwater
 #define METATILE_Underwater_FloorShadow  0x228

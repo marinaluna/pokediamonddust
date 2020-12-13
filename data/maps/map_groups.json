@@ -3,6 +3,7 @@
   "group_order": [
     "gMapGroup0",
     "gTwinleafTown",
+    "gLakefronts",
     "gMapGroup1",
     "gMapGroup2",
     "gMapGroup3",
@@ -95,7 +96,8 @@
     "Underwater_Route129",
     "Underwater_Route105",
     "Underwater_Route125",
-    "TwinleafTown"
+    "TwinleafTown",
+    "Route201"
   ],
   "gTwinleafTown": [
     "TwinleafTown_PlayersHouse_2F",
@@ -104,6 +106,9 @@
     "TwinleafTown_RivalsHouse_1F",
     "TwinleafTown_BotLeft_House",
     "TwinleafTown_TopRight_House"
+  ],
+  "gLakefronts": [
+    "VerityLakefront"
   ],
   "gMapGroup1": [
     "LittlerootTown_BrendansHouse_1F",

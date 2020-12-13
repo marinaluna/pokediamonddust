@@ -132,7 +132,8 @@ static const u8 sDoorAnimTiles_TrainerHillLobbyElevator[] = INCBIN_U8("graphics/
 static const u16 sDoorNullPalette48[16] = {};
 static const u8 sDoorAnimTiles_TrainerHillRoofElevator[] = INCBIN_U8("graphics/door_anims/trainer_hill_roof_elevator.4bpp");
 static const u16 sDoorNullPalette49[16] = {};
-static const u8 sDoorAnimTiles_Twinleaf[] = INCBIN_U8("graphics/door_anims/twinleaf.4bpp");
+static const u8 sDoorAnimTiles_Twinleaf_Brown_BigHouse[] = INCBIN_U8("graphics/door_anims/twinleaf_brown_bighouse.4bpp");
+static const u8 sDoorAnimTiles_Twinleaf_Brown_LittleHouse[] = INCBIN_U8("graphics/door_anims/twinleaf_brown_littlehouse.4bpp");
 
 static const struct DoorAnimFrame sDoorOpenAnimFrames[] =
 {
@@ -221,11 +222,12 @@ static const u8 sDoorAnimPalettes_BattleDomePreBattleRoom[] = {9, 9, 7, 7, 7, 7,
 static const u8 sDoorAnimPalettes_BattleTentInterior[] = {9, 9, 9, 9, 9, 9, 9, 9};
 static const u8 sDoorAnimPalettes_TrainerHillLobbyElevator[] = {7, 7, 7, 7, 7, 7, 7, 7};
 static const u8 sDoorAnimPalettes_TrainerHillRoofElevator[] = {9, 9, 7, 7, 7, 7, 7, 7};
-static const u8 sDoorAnimPalettes_Twinleaf[] = {0, 0, 0, 0, 3, 3, 3, 3};
+static const u8 sDoorAnimPalettes_Twinleaf[] = {7, 7, 7, 7, 3, 3, 3, 3};
 
 static const struct DoorGraphics sDoorAnimGraphicsTable[] =
 {
-    {METATILE_Twinleaf_Door_Brown,                          DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_Twinleaf, sDoorAnimPalettes_Twinleaf},
+    {METATILE_Twinleaf_Door_Brown_BigHouse,                 DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_Twinleaf_Brown_BigHouse, sDoorAnimPalettes_Twinleaf},
+    {METATILE_Twinleaf_Door_Brown_LittleHouse,              DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_Twinleaf_Brown_LittleHouse, sDoorAnimPalettes_Twinleaf},
     {METATILE_General_Door,                                 DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_General, sDoorAnimPalettes_General},
     {METATILE_General_Door_PokeCenter,                      DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_PokeCenter, sDoorAnimPalettes_PokeCenter},
     {METATILE_General_Door_Gym,                             DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_Gym, sDoorAnimPalettes_Gym},

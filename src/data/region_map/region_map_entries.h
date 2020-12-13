@@ -1,7 +1,11 @@
 #ifndef GUARD_DATA_REGION_MAP_REGION_MAP_ENTRIES_H
 #define GUARD_DATA_REGION_MAP_REGION_MAP_ENTRIES_H
 
-static const u8 sMapName_TwinleafTown[] = _("TWINLEAF TOWN");
+// DiamondDust map names
+static const u8 sMapName_TwinleafTown[] = _("Twinleaf Town");
+static const u8 sMapName_Route201[] = _("Route 201");
+static const u8 sMapName_VerityLakefront[] = _("Verity Lakefront");
+
 static const u8 sMapName_LittlerootTown[] = _("LITTLEROOT TOWN");
 static const u8 sMapName_OldaleTown[] = _("OLDALE TOWN");
 static const u8 sMapName_DewfordTown[] = _("DEWFORD TOWN");
@@ -201,7 +205,12 @@ static const u8 sMapName_DesertUnderpass[] = _("DESERT UNDERPASS");
 static const u8 sMapName_TrainerHill[] = _("TRAINER HILL");
 
 const struct RegionMapLocation gRegionMapEntries[] = {
+    // DiamondDust map entries
     [MAPSEC_TWINLEAF_TOWN]              = { 0,  0, 1, 1, sMapName_TwinleafTown},
+    [MAPSEC_ROUTE_201]                  = { 0,  0, 1, 1, sMapName_Route201},
+    [MAPSEC_VERITY_LAKEFRONT]           = { 0,  0, 1, 1, sMapName_VerityLakefront},
+
+
     [MAPSEC_LITTLEROOT_TOWN]            = { 4, 11, 1, 1, sMapName_LittlerootTown},
     [MAPSEC_OLDALE_TOWN]                = { 4,  9, 1, 1, sMapName_OldaleTown},
     [MAPSEC_DEWFORD_TOWN]               = { 2, 14, 1, 1, sMapName_DewfordTown},
