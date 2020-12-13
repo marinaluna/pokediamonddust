@@ -17,6 +17,11 @@
       "direction": "down",
       "offset": 8,
       "map": "MAP_TWINLEAF_TOWN"
+    },
+    {
+      "direction": "left",
+      "offset": -2,
+      "map": "MAP_VERITY_LAKEFRONT"
     }
   ],
   "object_events": [
