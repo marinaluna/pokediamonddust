@@ -1,10 +1,16 @@
 TwinleafTown_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, TwinleafTown_MapScripts_MAP_SCRIPT_ON_TRANSITION
 	.byte 0
 
-TwinleafTown_MapScripts_MAP_SCRIPT_ON_TRANSITION:
+
+TwinleafTown_Sign::
+	lock
+	msgbox TwinleafTown_Sign_Text_0
 	setflag FLAG_ADVENTURE_STARTED
 	setflag FLAG_RECEIVED_RUNNING_SHOES
 	setflag FLAG_SYS_B_DASH
+	release
 	end
 
+
+TwinleafTown_Sign_Text_0:
+	.string "Fucker!$"

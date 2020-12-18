@@ -1,8 +1,9 @@
 mapscripts TwinleafTown_MapScripts {
-    MAP_SCRIPT_ON_TRANSITION {
-        setflag(FLAG_ADVENTURE_STARTED)
-        setflag(FLAG_RECEIVED_RUNNING_SHOES)
-        setflag(FLAG_SYS_B_DASH)
-        end
-    }
+}
+
+script TwinleafTown_Sign {
+    setflag(FLAG_ADVENTURE_STARTED)
+    setflag(FLAG_RECEIVED_RUNNING_SHOES)
+    setflag(FLAG_SYS_B_DASH)
+    end
 }
