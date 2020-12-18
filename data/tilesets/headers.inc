@@ -852,3 +852,14 @@ gTileset_Twinleaf::
 	.4byte gMetatiles_Twinleaf
 	.4byte gMetatileAttributes_Twinleaf
 	.4byte NULL
+
+	.align 2
+gTileset_sinnohroutes::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_sinnohroutes
+	.4byte gTilesetPalettes_sinnohroutes
+	.4byte gMetatiles_sinnohroutes
+	.4byte gMetatileAttributes_sinnohroutes
+	.4byte NULL

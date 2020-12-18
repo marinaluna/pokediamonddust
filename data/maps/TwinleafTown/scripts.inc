@@ -1,2 +1,10 @@
 TwinleafTown_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, TwinleafTown_MapScripts_MAP_SCRIPT_ON_TRANSITION
 	.byte 0
+
+TwinleafTown_MapScripts_MAP_SCRIPT_ON_TRANSITION:
+	setflag FLAG_ADVENTURE_STARTED
+	setflag FLAG_RECEIVED_RUNNING_SHOES
+	setflag FLAG_SYS_B_DASH
+	end
+

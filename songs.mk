@@ -301,10 +301,10 @@ $(MID_SUBDIR)/mus_littleroot.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G051 -V100
 
 $(MID_SUBDIR)/mus_twinleaf.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G047 -V100
+	$(MID) $< $@ -E -R$(STD_REVERB) -G054 -V100
 
 $(MID_SUBDIR)/mus_route201.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G047 -V100
+	$(MID) $< $@ -E -R$(STD_REVERB) -G054 -V100
 
 $(MID_SUBDIR)/mus_surf.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G017 -V080

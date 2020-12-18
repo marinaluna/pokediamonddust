@@ -4487,7 +4487,7 @@
       "width": 66,
       "height": 24,
       "primary_tileset": "gTileset_SinnohOutdoors",
-      "secondary_tileset": "gTileset_Twinleaf",
+      "secondary_tileset": "gTileset_sinnohroutes",
       "border_filepath": "data/layouts/Route201/border.bin",
       "blockdata_filepath": "data/layouts/Route201/map.bin"
     },
@@ -4497,7 +4497,7 @@
       "width": 22,
       "height": 24,
       "primary_tileset": "gTileset_SinnohOutdoors",
-      "secondary_tileset": "gTileset_Twinleaf",
+      "secondary_tileset": "gTileset_sinnohroutes",
       "border_filepath": "data/layouts/VerityLakefront/border.bin",
       "blockdata_filepath": "data/layouts/VerityLakefront/map.bin"
     }

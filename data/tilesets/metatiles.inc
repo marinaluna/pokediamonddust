@@ -572,3 +572,10 @@ gMetatiles_Twinleaf::
 	.align 1
 gMetatileAttributes_Twinleaf::
 	.incbin "data/tilesets/secondary/twinleaf/metatile_attributes.bin"
+	.align 1
+gMetatiles_sinnohroutes::
+	.incbin "data/tilesets/secondary/sinnohroutes/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_sinnohroutes::
+	.incbin "data/tilesets/secondary/sinnohroutes/metatile_attributes.bin"
