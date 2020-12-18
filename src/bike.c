@@ -1033,7 +1033,7 @@ s16 GetPlayerSpeed(void)
     else if (gPlayerAvatar.flags & (PLAYER_AVATAR_FLAG_SURFING | PLAYER_AVATAR_FLAG_DASH))
         return SPEED_FAST;
     else
-        return SPEED_FASTEST;
+        return SPEED_NORMAL;
 }
 
 void Bike_HandleBumpySlopeJump(void)
