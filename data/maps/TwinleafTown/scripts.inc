@@ -3,14 +3,14 @@ TwinleafTown_MapScripts::
 
 
 TwinleafTown_Sign::
-	lock
-	msgbox TwinleafTown_Sign_Text_0
+	givemon SPECIES_CASTFORM, 100, ITEM_MYSTIC_WATER
+	givemon SPECIES_BULBASAUR, 100, ITEM_MYSTIC_WATER
+	givemon SPECIES_VOLTORB, 50, ITEM_MYSTIC_WATER
+	givemon SPECIES_MEWTWO, 90, ITEM_MYSTIC_WATER
+	givemon SPECIES_CATERPIE, 75, ITEM_MYSTIC_WATER
 	setflag FLAG_ADVENTURE_STARTED
+	setflag FLAG_SYS_POKEMON_GET
 	setflag FLAG_RECEIVED_RUNNING_SHOES
 	setflag FLAG_SYS_B_DASH
-	release
 	end
 
-
-TwinleafTown_Sign_Text_0:
-	.string "Fucker!$"
