@@ -2854,6 +2854,15 @@ extern const u32 gMonStillFrontPic_UnownQuestionMark[];
 extern const u32 gMonBackPic_UnownQuestionMark[];
 extern const u8 gMonIcon_UnownQuestionMark[];
 
+// Gen IV
+extern const u32 gMonFrontPic_Turtwig[];
+extern const u32 gMonPalette_Turtwig[];
+extern const u32 gMonBackPic_Turtwig[];
+extern const u32 gMonShinyPalette_Turtwig[];
+extern const u32 gMonStillFrontPic_Turtwig[];
+extern const u8 gMonIcon_Turtwig[];
+extern const u8 gMonFootprint_Turtwig[];
+
 extern const u32 gMonFrontPic_CircledQuestionMark[];
 extern const u32 gMonBackPic_CircledQuestionMark[];
 extern const u32 gMonPalette_CircledQuestionMark[];
