@@ -1,9 +1,12 @@
 {
   "layouts_table_label": "gMapLayouts",
   "group_order": [
-    "gMapGroup0",
+    "gCities",
+    "gRoutes",
     "gTwinleafTown",
     "gLakefronts",
+    "gLakes",
+    "gMapGroup0",
     "gMapGroup1",
     "gMapGroup2",
     "gMapGroup3",
@@ -37,6 +40,26 @@
     "gMapGroup31",
     "gMapGroup32",
     "gMapGroup33"
+  ],
+  "gCities": [
+    "TwinleafTown"
+  ],
+  "gRoutes": [
+    "Route201"
+  ],
+  "gTwinleafTown": [
+    "TwinleafTown_PlayersHouse_2F",
+    "TwinleafTown_PlayersHouse_1F",
+    "TwinleafTown_RivalsHouse_2F",
+    "TwinleafTown_RivalsHouse_1F",
+    "TwinleafTown_BotLeft_House",
+    "TwinleafTown_TopRight_House"
+  ],
+  "gLakefronts": [
+    "VerityLakefront"
+  ],
+  "gLakes": [
+    "LakeVerity"
   ],
   "gMapGroup0": [
     "PetalburgCity",
@@ -95,20 +118,7 @@
     "Underwater_Route128",
     "Underwater_Route129",
     "Underwater_Route105",
-    "Underwater_Route125",
-    "TwinleafTown",
-    "Route201"
-  ],
-  "gTwinleafTown": [
-    "TwinleafTown_PlayersHouse_2F",
-    "TwinleafTown_PlayersHouse_1F",
-    "TwinleafTown_RivalsHouse_2F",
-    "TwinleafTown_RivalsHouse_1F",
-    "TwinleafTown_BotLeft_House",
-    "TwinleafTown_TopRight_House"
-  ],
-  "gLakefronts": [
-    "VerityLakefront"
+    "Underwater_Route125"
   ],
   "gMapGroup1": [
     "LittlerootTown_BrendansHouse_1F",

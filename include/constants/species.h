@@ -418,8 +418,9 @@
 
 // Gen IV
 #define SPECIES_TURTWIG 412
+#define SPECIES_GROTLE 413
 
-#define SPECIES_EGG 413
+#define SPECIES_EGG 414
 
 #define SPECIES_UNOWN_B 674
 #define SPECIES_UNOWN_C 675
@@ -851,8 +852,9 @@
 
 // Gen IV
 #define NATIONAL_DEX_TURTWIG        387
+#define NATIONAL_DEX_GROTLE         388
 
-#define NATIONAL_DEX_COUNT       NATIONAL_DEX_TURTWIG
+#define NATIONAL_DEX_COUNT       NATIONAL_DEX_GROTLE
 
 #define NATIONAL_DEX_OLD_UNOWN_B    676
 #define NATIONAL_DEX_OLD_UNOWN_C    677
@@ -884,7 +886,7 @@
 
 #define SINNOH_DEX_NONE          0
 #define SINNOH_DEX_TURTWIG       1
-#define SINNOH_DEX_GROVYLE       2
+#define SINNOH_DEX_GROTLE        2
 #define SINNOH_DEX_SCEPTILE      3
 #define SINNOH_DEX_TORCHIC       4
 #define SINNOH_DEX_COMBUSKEN     5
@@ -1274,6 +1276,7 @@
 #define SINNOH_DEX_CELEBI        386
 
 #define SINNOH_DEX_TREECKO       387
+#define SINNOH_DEX_GROVYLE       388
 
 #define SINNOH_DEX_OLD_UNOWN_B   676
 #define SINNOH_DEX_OLD_UNOWN_C   677

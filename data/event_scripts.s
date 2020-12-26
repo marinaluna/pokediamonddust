@@ -1078,3 +1078,5 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/Route201/scripts.inc"
 
 	.include "data/maps/VerityLakefront/scripts.inc"
+
+	.include "data/maps/LakeVerity/scripts.inc"

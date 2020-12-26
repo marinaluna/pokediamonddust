@@ -714,6 +714,11 @@
 #define METATILE_Shop_Laptop2_Flash   0x260
 #define METATILE_Shop_Laptop2_Normal  0x2A5
 
+// gTileset_SinnohOutdoors
+#define METATILE_SinnohOutdoors_TallGrass            0x001
+#define METATILE_SinnohOutdoors_TallGrass_TreeLeft   0x02C
+#define METATILE_SinnohOutdoors_TallGrass_TreeRight  0x02D
+
 // gTileset_Slateport
 #define METATILE_Slateport_Door             0x2DC
 #define METATILE_Slateport_Door_BattleTent  0x393
