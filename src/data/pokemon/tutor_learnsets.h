@@ -30,6 +30,9 @@ const u16 gTutorMoves[TUTOR_MOVE_COUNT] =
     [TUTOR_MOVE_THUNDER_PUNCH] = MOVE_THUNDER_PUNCH,
     [TUTOR_MOVE_FIRE_PUNCH] = MOVE_FIRE_PUNCH,
     [TUTOR_MOVE_FURY_CUTTER] = MOVE_FURY_CUTTER,
+    [TUTOR_MOVE_HEADBUTT] = MOVE_HEADBUTT,
+    [TUTOR_MOVE_SUPERPOWER] = MOVE_SUPERPOWER,
+    [TUTOR_MOVE_SYNTHESIS] = MOVE_SYNTHESIS,
 };
 
 #define TUTOR(move) (1u << (TUTOR_##move))
@@ -5752,6 +5755,13 @@ static const u32 sTutorLearnsets[] =
                                 | TUTOR(MOVE_MUD_SLAP)
                                 | TUTOR(MOVE_SWAGGER)
                                 | TUTOR(MOVE_SWIFT)),
+
+    [SPECIES_GROTLE]           = (TUTOR(MOVE_SNORE)
+                                | TUTOR(MOVE_MUD_SLAP)
+                                | TUTOR(MOVE_SWAGGER)
+                                | TUTOR(MOVE_SWIFT)
+                                | TUTOR(MOVE_HEADBUTT)
+                                | TUTOR(MOVE_SUPERPOWER)),
 
 };
 

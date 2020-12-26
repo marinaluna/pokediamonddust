@@ -2325,3 +2325,8 @@ const u8 gTurtwigPokedexText[] = _(
     "Made from soil, the shell on\n"
     "its back hardens when it drinks\n"
     "water. It lives along lakes.");
+
+const u8 gGrotlePokedexText[] = _(
+    "It lives along water in forests. In the\n"
+    "daytime, it leaves the forest to sunbathe\n"
+    "its treed shell.");

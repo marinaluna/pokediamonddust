@@ -439,7 +439,7 @@ const u8 *const gMonIconTable[] =
 
     // Gen IV
     [SPECIES_TURTWIG] = gMonIcon_Turtwig,
-
+    [SPECIES_GROTLE] = gMonIcon_Grotle,
 
     [SPECIES_EGG] = gMonIcon_Egg,
     [SPECIES_UNOWN_B] = gMonIcon_UnownB,
@@ -888,7 +888,7 @@ const u8 gMonIconPaletteIndices[] =
 
     // Gen IV
     [SPECIES_TURTWIG] = 1,
-
+    [SPECIES_GROTLE] = 1,
 
     [SPECIES_EGG] = 1,
     [SPECIES_UNOWN_B] = 0,

@@ -509,6 +509,7 @@ const u16 gSpeciesToHoennPokedexNum[] = // Assigns all species to the Hoenn Dex 
 
     // Gen IV
     SPECIES_TO_SINNOH(TURTWIG),
+    SPECIES_TO_SINNOH(GROTLE),
 };
 
 const u16 gSpeciesToNationalPokedexNum[] = // Assigns all species to the National Dex Index (Summary No. for National Dex)
@@ -927,6 +928,7 @@ const u16 gSpeciesToNationalPokedexNum[] = // Assigns all species to the Nationa
 
     // Gen IV
     SPECIES_TO_NATIONAL(TURTWIG),
+    SPECIES_TO_NATIONAL(GROTLE),
 };
 
 const u16 gHoennToNationalOrder[] = // Assigns Hoenn Dex Pokémon (Using National Dex Index)
@@ -1136,7 +1138,7 @@ const u16 gHoennToNationalOrder[] = // Assigns Hoenn Dex Pokémon (Using Nationa
 
     // Gen IV
     SINNOH_TO_NATIONAL(TURTWIG),
-
+    SINNOH_TO_NATIONAL(GROTLE),
 
     SINNOH_TO_NATIONAL(BULBASAUR), // Pokémon from here onwards are UNSEEN in the HoennDex.
     SINNOH_TO_NATIONAL(IVYSAUR),
@@ -1816,6 +1818,7 @@ static const u8 sMonFrontAnimIdsTable[] =
 
     // Gen IV
     [SPECIES_TURTWIG - 1] = 0x09,
+    [SPECIES_GROTLE - 1] = 0x09,
 };
 
 static const u8 sMonAnimationDelayTable[NUM_SPECIES - 1] =

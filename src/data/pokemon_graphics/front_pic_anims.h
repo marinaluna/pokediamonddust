@@ -4587,6 +4587,13 @@ static const union AnimCmd sAnim_TURTWIG_1[] =
     ANIMCMD_END,
 };
 
+static const union AnimCmd sAnim_GROTLE_1[] =
+{
+    ANIMCMD_FRAME(1, 30),
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_END,
+};
+
 static const union AnimCmd sAnim_EGG_1[] =
 {
     ANIMCMD_FRAME(0, 6),
@@ -6817,6 +6824,11 @@ static const union AnimCmd *const sAnims_TURTWIG[] ={
     sAnim_TURTWIG_1,
 };
 
+static const union AnimCmd *const sAnims_GROTLE[] ={
+    sAnim_GeneralFrame0,
+    sAnim_GROTLE_1,
+};
+
 static const union AnimCmd *const sAnims_EGG[] ={
     sAnim_GeneralFrame0,
     sAnim_EGG_1,
@@ -7377,6 +7389,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
 
     // GEN IV
     ANIM_CMD(TURTWIG),
+    ANIM_CMD(GROTLE),
     
     ANIM_CMD(EGG),
     ANIM_CMD(UNOWN_B),

@@ -418,6 +418,7 @@ const struct CompressedSpriteSheet gMonStillFrontPicTable[] =
 
     // Gen IV
     SPECIES_SPRITE(TURTWIG,       gMonStillFrontPic_Turtwig),
+    SPECIES_SPRITE(GROTLE,        gMonStillFrontPic_Grotle),
 
     SPECIES_SPRITE(EGG,           gMonStillFrontPic_Egg),
     SPECIES_SPRITE(UNOWN_B,       gMonStillFrontPic_UnownB),

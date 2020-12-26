@@ -2065,7 +2065,12 @@ const struct MonCoords gMonFrontPicCoords[] =
     [SPECIES_TURTWIG] =
     {
         .size = 0x45,
-        .y_offset = 14,
+        .y_offset = 8,
+    },
+    [SPECIES_GROTLE] =
+    {
+        .size = 0x56,
+        .y_offset = 10,
     },
 
 

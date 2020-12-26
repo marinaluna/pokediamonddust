@@ -415,4 +415,5 @@ const u16 *const gLevelUpLearnsets[NUM_SPECIES] =
 
     // Gen IV
     [SPECIES_TURTWIG] = sTurtwigLevelUpLearnset,
+    [SPECIES_GROTLE] = sGrotleLevelUpLearnset,
 };

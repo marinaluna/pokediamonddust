@@ -572,6 +572,7 @@ static const u8 sSpeciesToBackAnimSet[] =
 
     // Gen IV
     [SPECIES_TURTWIG] = BACK_ANIM_DIP_RIGHT_SIDE,
+    [SPECIES_GROTLE] = BACK_ANIM_H_SLIDE,
 };
 
 static const u8 sUnknown_0860AA64[][2] =

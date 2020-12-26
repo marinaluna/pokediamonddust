@@ -414,4 +414,5 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
 
     // Gen IV
     [SPECIES_TURTWIG] = _("TURTWIG"),
+    [SPECIES_GROTLE] = _("GROTLE"),
 };

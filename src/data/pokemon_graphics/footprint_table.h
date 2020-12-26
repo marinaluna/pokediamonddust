@@ -415,7 +415,7 @@ const u8 *const gMonFootprintTable[] =
 
     // Gen IV
     [SPECIES_TURTWIG] = gMonFootprint_Turtwig,
-    
+    [SPECIES_GROTLE] = gMonFootprint_Grotle,
 
     [SPECIES_EGG] = gMonFootprint_Bulbasaur,
 };
